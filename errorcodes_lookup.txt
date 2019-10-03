@@ -1,0 +1,16 @@
+Successful execution
+LE001:Failed to load using url http://www.facebook.connect.com
+FBE001:Invalid username for login
+FBE002:Invalid password for login
+
+Process completed successfully
+LE002:Failed to load file from filesystem D:\Data\TesDataFile.txt
+DSE001:Failed to extract data, pattern (.*)(\d+[A-Z]{4}\d+;)(.*) no matched
+FE001:File D:\Data\TesDataFile.txt is empty
+
+Robot Execution successful
+LE002:Failed to load file from filesystem D:\Data\TesWriteFile.txt
+CWE001:Failed to write data, as data found is in invalid format
+FE001:File D:\Data\TestWriteFile.txt is empty
+
+source="test.log" host="DemoMachine001" sourcetype="AMSCustomSourceType" "ContentWritingBot.robot" AND "FE001"

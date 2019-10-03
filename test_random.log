@@ -1,0 +1,47 @@
+Kapow:10-03-2019 01:11.10:FBLoginBot.robot start
+Kapow:WriteLog:10-03-2019 01:14.02:Successful execution
+Kapow:10-03-2019 01:15.21:FBLoginBot.robot stop
+
+Kapow:10-03-2019 01:21.10:FBLoginBot.robot start
+Kapow:WriteLog:10-03-2019 01:24.02:LE001:Failed to load using url http://www.facebook.connect.com
+Kapow:10-03-2019 01:25.21:FBLoginBot.robot stop
+
+Kapow:10-03-2019 01:31.10:FBLoginBot.robot start
+Kapow:WriteLog:10-03-2019 01:34.02:FBE001:Invalid username for login
+Kapow:10-03-2019 01:35.21:FBLoginBot.robot stop
+
+Kapow:10-03-2019 01:41.10:FBLoginBot.robot start
+Kapow:WriteLog:10-03-2019 01:44.02:FBE002:Invalid password for login
+Kapow:10-03-2019 01:45.21:FBLoginBot.robot stop
+
+Kapow:10-03-2019 01:46.10:DataScrapingBot.robot start
+Kapow:WriteLog:10-03-2019 01:47.02:Process completed successfully
+Kapow:10-03-2019 01:48.21:DataScrapingBot.robot stop
+
+Kapow:10-03-2019 01:51.10:DataScrapingBot.robot start
+Kapow:WriteLog:10-03-2019 01:54.02:LE002:Failed to load file from filesystem D:\Data\TesDataFile.txt
+Kapow:10-03-2019 01:55.21:DataScrapingBot.robot stop
+
+Kapow:10-03-2019 02:21.10:DataScrapingBot.robot start
+Kapow:WriteLog:10-03-2019 02:24.02:DSE001:Failed to extract data, pattern (.*)(\d+[A-Z]{4}\d+;)(.*) no matched
+Kapow:10-03-2019 02:25.21:DataScrapingBot.robot stop
+
+Kapow:10-03-2019 02:31.10:DataScrapingBot.robot start
+Kapow:WriteLog:10-03-2019 02:34.02:FE001:File D:\Data\TesDataFile.txt is empty
+Kapow:10-03-2019 02:35.21:DataScrapingBot.robot stop
+
+Kapow:10-03-2019 02:36.10:ContentWritingBot.robot start
+Kapow:WriteLog:10-03-2019 02:37.02:Robot Execution successful
+Kapow:10-03-2019 02:38.21:ContentWritingBot.robot stop
+
+Kapow:10-03-2019 02:41.10:ContentWritingBot.robot start
+Kapow:WriteLog:10-03-2019 02:44.02:LE002:Failed to load file from filesystem D:\Data\TesWriteFile.txt
+Kapow:10-03-2019 02:45.21:ContentWritingBot.robot stop
+
+Kapow:10-03-2019 02:51.10:ContentWritingBot.robot start
+Kapow:WriteLog:10-03-2019 02:54.02:CWE001:Failed to write data, as data found is in invalid format
+Kapow:10-03-2019 02:55.21:ContentWritingBot.robot stop
+
+Kapow:10-03-2019 03:21.10:ContentWritingBot.robot start
+Kapow:WriteLog:10-03-2019 03:24.02:FE001:File D:\Data\TestWriteFile.txt is empty
+Kapow:10-03-2019 03:25.21:ContentWritingBot.robot stop
